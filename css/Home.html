@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 75px;
+            background-color: yellow;
+        }
+        .right{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 30%;
+            
+        }
+        .Products img{
+            width: 250px;
+            height: 250px;
+        }
+        .Products{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border: 1px solid black;
+            margin-top: 50px;
+
+        }
+        .footer{
+            height: 150px;
+            background-color: yellow;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+
+        <div class="left">
+            <h2>LOGO</h2>
+        </div>
+
+        <div class="right">
+            <h2>Home</h2>
+            <h2>About</h2>
+        </div>
+        
+    </div>
+
+    <div class="banner">
+        <img width="100%" height="300px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2pECcApRRSOVnyAJt3A4NNbKMOb66B5kIuA&s" alt="">
+    </div>
+
+    <center><h1>Mobiles</h1></center>
+    <div class="Products">
+        <img src="https://fonezone.me/cdn/shop/files/Untitled_27_164.jpg?v=1757158746&width=500" alt="">
+        <img src="https://m.media-amazon.com/images/I/717Q2swzhBL._AC_UF1000,1000_QL80_.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvmLW8e3dBcHsznfS9A0y0Pt3a6pZ8SwsiOg&s" alt="">
+    </div>
+
+     <div class="Products">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUpAyDpOE8XjbHCOULMaW6uKWDUgVFkWv_Fw&s" alt="">
+        <img src="https://m.media-amazon.com/images/I/71YzJwmRFCL.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL82Z6q1iJ87mbvF-faCuPxttSlcYj31VW1g&s" alt="">
+
+    </div>
+    
+     <center><h1>Laptops</h1></center>
+     <div class="Products">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCAdt7Ozv5gG954wyGnUtUIMoqiY0CxjSBlA&s" alt="">
+        <img src="https://5.imimg.com/data5/DG/HJ/MY-43212347/lenovo-laptop-500x500.jpg" alt="">
+
+     </div>
+
+     <div class="footer">
+       <center> <h2>Contact: +91 8106307929</h2></center>
+        <center><h2>Address: Bangaluru</h2></center>
+
+     </div>
+</body>
+</html>
