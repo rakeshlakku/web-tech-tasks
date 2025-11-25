@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+    .ball{
+        height: 200px;
+        width: 200px;
+        animation: bounce 2s linear infinite;
+    }
+    @keyframes bounce{
+        0%{
+            transform: translateY(0);
+        }
+        50%{
+           transform: translateY(600px);
+        }
+          100%{
+            transform: translateY(0);
+        }
+      
+    }
+</style>
+<body>
+    <div class="ball">
+        <img src="https://www.niviasports.com/cdn/shop/files/2B0A1847_f28487aa-de26-43de-b86f-5c4d171402df.jpg?v=1728559966&width=1445" alt="car" height="200px" width="200px" >
+        
+    </div>
+</body>
+</html>
